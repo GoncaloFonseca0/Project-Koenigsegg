@@ -43,7 +43,10 @@ function calculatePriceWithDiscount(product) {
 
 cars.forEach((cars) => {
   let element = document.createElement("div");
+
   element.innerHTML = `
+ 
+
       <div class="carName${cars.id}"
       <div class="car-img">
       <img src="${cars.Image}" style="width: 200px"/>
@@ -60,6 +63,7 @@ cars.forEach((cars) => {
   
       <br>
       `;
+
   document.querySelector(".product-cars").appendChild(element);
 });
 
@@ -71,4 +75,6 @@ function addToCart(productId) {
   document.querySelector("addTocart").appendChild(div);
 }
 
-function myFunction() {}
+function cartItens(productId) {
+  let cartitens = cars.find((product) => product.id == productId);
+}

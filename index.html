@@ -4,20 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./project.css" />
     <script src="project.js" defer></script>
     <title>Document</title>
   </head>
 
   <body>
-    <div>
+    <div class="header">
       <input
         type="text"
-        placeholder="Search for names.. "
-        onkeyup="myFunction()"
         id="myInput"
+        onkeyup="myFunction()"
+        class="Search-Product"
+        placeholder="Search for names.. "
       />
-    </div>
+      <div class="header-title">Koenigsegg APP</div>
 
-    <div class="product-cars"></div>
+      <div class="Header-Container">
+        <p>Total <span class="CarTotal"></span></p>
+        <p>Itens <span class=""></span></p>
+      </div>
+    </div>
+    <div class="product-section">
+      <p class="Welcome">
+        Bem vindo hoje é <span class="weekday">segunda-feira</span>
+      </p>
+    </div>
+    <div class="product-Container">
+      <div class="product-cars"></div>
+    </div>
   </body>
 </html>

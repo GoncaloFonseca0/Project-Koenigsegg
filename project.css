@@ -1,0 +1,15 @@
+.header {
+  background: orange;
+  height: 75px;
+  display: flex;
+  text-align: center;
+}
+
+.search-Product {
+  height: 20px;
+  margin: 0 25px;
+}
+
+.welcome {
+  box-sizing: 20px;
+}
